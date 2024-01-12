@@ -17,6 +17,7 @@ A simple and user-friendly Random Password Generator with an intuitive UI.
 1. Open the `index.html` file in a web browser.
 
 2. Use the options provided to customize your password:
+
    - Adjust the password length using the slider.
    - Toggle options to include or exclude specific character types.
 
@@ -26,7 +27,7 @@ A simple and user-friendly Random Password Generator with an intuitive UI.
 
 ## UI Overview
 
-![Password Generator UI](password-generator-ui.png)
+![Password Generator UI](UI-PWD-GEN.png)
 
 ## Technologies Used
 
@@ -47,5 +48,3 @@ Contributions are welcome! If you have any ideas, suggestions, or improvements, 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-
