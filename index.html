@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Password Generator</h2>
+      <div class="result">
+        <input
+          class="output"
+          type="text"
+          placeholder="your secret password"
+        />
+      </div>
+      <div class="range_slider">
+        <input
+          type="range"
+          min="0"
+          max="32"
+          class="range"
+          oninput="sliderChange(this.value)"
+        /><br />
+        <p id="rangeValue"></p>
+      </div>
+      <div class="settings">
+        <!-- <span>settings</span> -->
+        <div class="setting">
+          <input type="checkbox" checked />
+          <label for="">Uppercase Characters</label>
+        </div>
+        <div class="setting">
+          <input type="checkbox" checked />
+          <label for="">Lowercase Characters</label>
+        </div>
+        <div class="setting">
+          <input type="checkbox" checked />
+          <label for="">Numeric &nbsp &nbspCharacters</label>
+        </div>
+        <div class="setting">
+          <input type="checkbox" checked />
+          <label for="">Special &nbsp &nbsp &nbspCharacters</label>
+        </div>
+      </div>
+      <div class="btn-class">
+        <button class="btn" type="button">Generate Password</button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
