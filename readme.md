@@ -27,7 +27,7 @@ A simple and user-friendly Random Password Generator with an intuitive UI.
 
 ## UI Overview
 
-![Password Generator UI](UI-PWD-GEN.png)
+![Password Generator UI](./UI-PWD-GEN.png)
 
 ## Technologies Used
 
