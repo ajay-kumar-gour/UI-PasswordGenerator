@@ -27,7 +27,7 @@ A simple and user-friendly Random Password Generator with an intuitive UI.
 
 ## UI Overview
 
-![Password Generator UI](data:/UI-PWD-GEN.png)
+![UI-PWD-GEN](https://github.com/ajay-kumar-gour/UI-PasswordGenerator/assets/153515139/cdb9a486-896e-4aa2-b504-6443b58144d9)
 
 ## Technologies Used
 
