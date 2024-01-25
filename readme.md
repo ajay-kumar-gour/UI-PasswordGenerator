@@ -33,7 +33,7 @@ A simple and user-friendly Random Password Generator with an intuitive UI.
 
 - HTML
 - CSS
-- JavaScript
+
 
 ## Fonts
 
